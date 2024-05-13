@@ -64,3 +64,20 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Consegna
+
+Creiamo una tabella trains e relativa Migration 
+
+Ogni treno dovrà avere:  
+Azienda  
+Stazione di partenza  
+Stazione di arrivo  
+Orario di partenza  
+Orario di arrivo  
+Codice Treno  
+Numero Carrozze  
+In orario  
+Cancellato  
+
+Oltre alla migration di creazione della tabella aggiungente una migration di update con rollback funzionante
