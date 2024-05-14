@@ -8,7 +8,7 @@ use App\Models\Train;
 class PageController extends Controller
 {
     public function index(){
-        $data = Train::paginate(5);
+        $data = Train::orderBy('id', 'desc')->paginate(5);
 
         return view('home', compact('data'));
     }

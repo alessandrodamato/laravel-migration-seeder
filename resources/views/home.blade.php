@@ -28,9 +28,9 @@ Home
       @foreach ($data as $item)
       <tr>
         <td scope="col">{{$item->id}}</td>
-        <td scope="col">{{$item->company}}</td>
-        <td scope="col">{{$item->departure_station}}</td>
-        <td scope="col">{{$item->arrival_station}}</td>
+        <td scope="col" class="text-capitalize">{{$item->company}}</td>
+        <td scope="col" class="text-capitalize">{{$item->departure_station}}</td>
+        <td scope="col" class="text-capitalize">{{$item->arrival_station}}</td>
         <td scope="col">{{$item->departure_time}}</td>
         <td scope="col">{{$item->arrival_time}}</td>
         <td scope="col">{{$item->code}}</td>
