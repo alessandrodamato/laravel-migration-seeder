@@ -7,7 +7,7 @@ Home
 @section('content')
 
 <div class="container">
-  <h1>Tutti i treni</h1>
+  <h1 class="pt-5 pb-3">Trains</h1>
 
   <table class="table table-striped container">
     <thead>

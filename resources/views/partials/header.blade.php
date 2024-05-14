@@ -1,5 +1,5 @@
-<header>
-    <h1>Header</h1>
+<header class="text-center bg-dark text-white p-3">
 
-    <a href="{{route('home')}}">Home</a>
+    <h1><a class="text-white text-decoration-none" href="{{route('home')}}">Home</a></h1>
+
 </header>

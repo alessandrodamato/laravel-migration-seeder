@@ -1,3 +1,3 @@
-<footer>
-    <h1>Footer</h1>
+<footer class="bg-dark text-white text-center p-5">
+    <h1>Boolean &copy;</h1>
 </footer>
