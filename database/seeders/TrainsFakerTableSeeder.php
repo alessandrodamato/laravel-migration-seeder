@@ -16,6 +16,7 @@ class TrainsFakerTableSeeder extends Seeder
     public function run(Faker $faker): void
     {
 
+      // faker di 20 treni alla volta
       for ($i = 0; $i < 20; $i++) {
         $new_train = new Train();
         $new_train->company = $faker->company();

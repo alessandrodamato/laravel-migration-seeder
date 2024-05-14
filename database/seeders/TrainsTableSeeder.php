@@ -14,6 +14,7 @@ class TrainsTableSeeder extends Seeder
     public function run(): void
     {
 
+        //prova statica per vedere il funzionamento
         $new_train = new Train();
         $new_train->company = 'Italo';
         $new_train->departure_station = 'Milano cle';
