@@ -15,14 +15,14 @@ class TrainsTableSeeder extends Seeder
     {
 
         $new_train = new Train();
-        $new_train->company = 'italo';
+        $new_train->company = 'Italo';
         $new_train->departure_station = 'Milano cle';
         $new_train->arrival_station = 'Salerno';
         $new_train->departure_time = '10:20:00';
         $new_train->arrival_time = '16:00:00';
-        $new_train->code = '123456789012';
-        $new_train->number_of_carriages = 12;
-        $new_train->slug = 'italo-123456789012';
+        $new_train->code = '167549382451';
+        $new_train->number_of_carriages = 11;
+        $new_train->slug = 'italo-167549382451';
         $new_train->save();
 
     }
