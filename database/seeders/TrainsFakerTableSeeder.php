@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Faker\Generator as Faker;
+use Illuminate\Support\Str;
 use App\Models\Train;
 
 class TrainsFakerTableSeeder extends Seeder
@@ -24,7 +25,7 @@ class TrainsFakerTableSeeder extends Seeder
         $new_train->arrival_time = $faker->time();
         $new_train->code = $faker->numberBetween(100000000000, 999999999999);
         $new_train->number_of_carriages = $faker->numberBetween(5, 15);
-        $new_train->slug = $new_train->company . $new_train->code;
+        $new_train->slug = Str::slug($new_train->company . '-' . $new_train->code, '-');
         $new_train->save();
       }
 
