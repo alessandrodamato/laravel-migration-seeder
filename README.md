@@ -67,12 +67,12 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Consegna
 
-Creiamo una tabella trains e relativa Migration 
+Creiamo una tabella 'trains' con una migration 
 
-Ogni treno dovrà avere:  
-Azienda  
+Ogni treno dovrà avere:   
+Azienda   
 Stazione di partenza  
-Stazione di arrivo  
+Stazione di arrivo   
 Orario di partenza  
 Orario di arrivo  
 Codice Treno  
